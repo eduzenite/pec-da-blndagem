@@ -37,7 +37,11 @@
                             <p>Na prática, a PEC reduz a autonomia de órgãos como o Ministério Público e o Judiciário, criando barreiras para que investigações e julgamentos avancem contra deputados e senadores. Críticos alertam que isso pode abrir caminho para a impunidade, principalmente em casos mais graves de corrupção ou abuso de poder, já que o andamento dos processos ficaria condicionado a interesses políticos.</p>
                             <p>Embora defensores da proposta argumentem que ela reforça a independência e a prerrogativa do Legislativo, a medida levanta preocupações sobre o equilíbrio entre os poderes e a capacidade de responsabilizar agentes públicos. Para a população, o efeito imediato pode ser um aumento na desconfiança em relação à classe política, justamente em um momento em que a transparência e a accountability são cada vez mais cobradas.</p>
                             <hr>
-                            <strong>Fonte:</strong> <a href="https://www.cnnbrasil.com.br/politica/pec-da-blindagem-saiba-como-votou-cada-deputado/" target="_blank">https://www.cnnbrasil.com.br/politica/pec-da-blindagem-saiba-como-votou-cada-deputado/</a>
+                            <strong>Fontes:</strong>
+                            <br />
+                            <a href="https://www.cnnbrasil.com.br/politica/pec-da-blindagem-saiba-como-votou-cada-deputado/" target="_blank">www.cnnbrasil.com.br</a>
+                            <br />
+                            <a href="https://pt.wikipedia.org/wiki/Posicionamentos_dos_partidos_brasileiros" target="_blank">pt.wikipedia.org</a>
                         </div>
                     </div>
                 </div>
