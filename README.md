@@ -1,61 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Análise da PEC da Blindagem
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Nas últimas semanas, venho me dedicando a estudos de **análise de dados** e **visualização**, com foco em Power BI e aprendizado prático de técnicas de dashboarding.  
+Como exercício prático, decidi explorar a votação da **PEC da Blindagem**, analisando como deputados de diferentes **partidos**, **estados** e **regiões** se posicionaram.
 
-## About Laravel
+Gravei um vídeo apresentando os gráficos que construí, explicando a lógica da análise e compartilhando insights sobre o tema:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+[![Assista ao vídeo](https://img.youtube.com/vi/nJszNH6PoTU/hqdefault.jpg)](https://youtu.be/nJszNH6PoTU)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tecnologias utilizadas
 
-## Learning Laravel
+- **Laravel 12** – Backend e manipulação de CSVs para gerar os dados.
+- **Bootstrap 5** – Estruturação do layout e componentes responsivos.
+- **Chart.js** – Visualização dos dados em gráficos dinâmicos (pizza, barras empilhadas, multi-axis).
+- **PHP 8 / Composer** – Para dependências e organização do projeto.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## O que você encontrará neste projeto
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Processamento de arquivos CSV com **Laravel**, incluindo votos, partidos, estados e regiões.
+- Geração de gráficos interativos usando **Chart.js**, com suporte a:
+    - Distribuição total de votos
+    - Votos por estado e região
+    - Votos por partido
+    - Votos agrupados por posicionamento ideológico
+- Implementação de dashboards com **Bootstrap 5**, incluindo cores e legendas dinâmicas.
+- Possibilidade de extender a análise para outros datasets e votações.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Para desenvolvedores
 
-### Premium Partners
+Se você é desenvolvedor e quer entender como gerar dashboards interativos a partir de **dados tabulares**, este projeto serve como referência prática para:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Ler CSVs no Laravel e transformar os dados para visualização.
+- Passar dados do **backend PHP para o frontend JS** de forma segura.
+- Montar gráficos dinâmicos com **Chart.js** em diferentes formatos.
+- Criar dashboards responsivos usando **Bootstrap 5**.
+- Implementar filtros e buscas em tabelas HTML.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Assista ao vídeo completo para acompanhar a análise visual: [YouTube](https://youtu.be/nJszNH6PoTU)
